@@ -1,0 +1,26 @@
+\babel@toc {french}{}\relax 
+\contentsline {chapter}{\numberline {1}Mathématiques de la mécanique quantique}{6}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Rappels sur les espaces de Hilbert et les opérateurs}{6}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Introduction et postulats}{8}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Postulats}{8}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Interprétation probabiliste}{9}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}Transformée de Fourier}{10}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Notations multi-indices}{10}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Étude de la transformée de Fourier}{10}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Étude de la position et de l'impulsion et principe d'incertitude de Heisenberg}{11}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}Introduction des opérateurs position et impulsion}{12}{subsection.1.3.4}%
+\contentsline {subsection}{\numberline {1.3.5}Relation de commutation canonique}{14}{subsection.1.3.5}%
+\contentsline {section}{\numberline {1.4}Opérateurs pseudo-différentiels}{14}{section.1.4}%
+\contentsline {chapter}{\numberline {2}La transformée de Weyl}{17}{chapter.2}%
+\contentsline {section}{\numberline {2.1}La transformée de Fourier-Wigner}{17}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Théorème de Stone et groupe à 1-paramètre}{17}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Groupe de Heisenberg et représentation $\rho $}{17}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}La transformée de Fourier-Wigner}{19}{subsection.2.1.3}%
+\contentsline {subsubsection}{La théorie des radars}{20}{section*.3}%
+\contentsline {section}{\numberline {2.2}La transformée de Wigner}{20}{section.2.2}%
+\contentsline {section}{\numberline {2.3}La transformée de Weyl}{23}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}La transformée de Weyl et quelques exemples de correspondance}{26}{subsection.2.3.1}%
+\contentsline {subsubsection}{Exemples}{26}{section*.4}%
+\contentsline {subsection}{\numberline {2.3.2}Opérateurs de Hilbert-Schmidt sur $L^2(\mathbb {R}^n)$}{28}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Produit tensoriel sur $L^2(\mathbb {R}^n)$}{29}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}$\mathcal {H}^*$-algèbre et calcul de Weyl}{31}{subsection.2.3.4}%
