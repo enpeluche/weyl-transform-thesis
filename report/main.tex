@@ -123,20 +123,20 @@
 \chapter*{\centering Introduction}
 
 
-~~~~~~ En \textbf{mécanique classique}, l'état d'un système constitué d'une particule \textbf{se mouvant sur une droite} à un instant $t$ peut-être décrit par la donnée de la \textbf{position} $x$ et de la \textbf{vitesse} $v$. On peut prédire son évolution en appliquant l'équation de Newton $\vec{a} = \frac{\vec{F}}{m}$, où $\vec{F}$ représente la somme des forces extérieures agissant sur ce système, $m$ est la masse de la particule et $\vec{a}$ son accélération. L'étude de l'évolution d'un objet dans $\R^n$ se fait souvent dans l'espace des phases $\R^n \times \R^n = \{(\xi,x)$ tel que $ \xi \in \R^n, x \in \R^n\}$, l'espace dans lequel tous les états possibles d'un objet sont représentés, où en général $x$ représente la position et $\xi$ l'impulsion, les lettres $q$ et $p$ seront aussi utilisées. Par exemple on peut choisir de représenter une balle de tennis, assimilée à un point matériel, par sa position et sa vitesse dans l'espace, donc par un point de $\R^3 \times \R^3$ à chaque instant $t$ ! Puis en appliquant l'équation de Newton on va pouvoir prédire l'évolution au cours du temps de la position de la balle de tennis. On appelle grandeur physique toute propriété d'un système qui peut être mesurée ou calculée et dont les valeurs possibles sont réelles. Ce sont des fonctions définies sur l'espace des phases, par exemple l'énergie du système considéré.\vspace{7pt}
+En \textbf{mécanique classique}, l'état d'un système constitué d'une particule \textbf{se mouvant sur une droite} à un instant $t$ peut-être décrit par la donnée de la \textbf{position} $x$ et de la \textbf{vitesse} $v$. On peut prédire son évolution en appliquant l'équation de Newton $\vec{a} = \frac{\vec{F}}{m}$, où $\vec{F}$ représente la somme des forces extérieures agissant sur ce système, $m$ est la masse de la particule et $\vec{a}$ son accélération. L'étude de l'évolution d'un objet dans $\R^n$ se fait souvent dans l'espace des phases $\R^n \times \R^n = \{(\xi,x)$ tel que $ \xi \in \R^n, x \in \R^n\}$, l'espace dans lequel tous les états possibles d'un objet sont représentés, où en général $x$ représente la position et $\xi$ l'impulsion, les lettres $q$ et $p$ seront aussi utilisées. Par exemple on peut choisir de représenter une balle de tennis, assimilée à un point matériel, par sa position et sa vitesse dans l'espace, donc par un point de $\R^3 \times \R^3$ à chaque instant $t$ ! Puis en appliquant l'équation de Newton on va pouvoir prédire l'évolution au cours du temps de la position de la balle de tennis. On appelle grandeur physique toute propriété d'un système qui peut être mesurée ou calculée et dont les valeurs possibles sont réelles. Ce sont des fonctions définies sur l'espace des phases, par exemple l'énergie du système considéré.\vspace{7pt}
 
-~~~~~~ En \textbf{mécanique quantique}, c'est conceptuellement différent, on ne décrit plus l'état d'un système par sa position et son impulsion mais par \textbf{une fonction à valeurs complexes appelée fonction d'onde} $\Psi_t$ à chaque instant $t$.  On parle d'état quantique. Les fonctions d'onde sont régies par la célèbre équation de Schrödinger $i \hbar \frac{d \Psi}{dt}=\hat{H}\Psi$, où $\hat{H}$ s'appelle l'Hamiltonien du système et joue le même rôle que $\vec{F}$, c'est un opérateur qui agit sur les fonctions d'onde $\psi _t$, $\hbar$ vaut $\frac{h}{2 \pi}$, $h$ étant la célèbre constante de Planck. On veut maintenant manipuler ces fonctions d'onde à l'aide d'opérateurs auto-adjoints qui agissent sur ces états. Ces opérateurs sont appelés des \textbf{observables} et jouent un rôle analogue à celui des grandeurs physiques en mécanique classique. Ils sont appelés observables car c'est par l'action de ces opérateurs sur les états qu'on peut comprendre et observer les particules quantiques. Par exemple, une observable peut être l'opérateur représentant la position, associe la valeur moyenne de la position dans un état $\psi$.\vspace{7 pt}
+En \textbf{mécanique quantique}, c'est conceptuellement différent, on ne décrit plus l'état d'un système par sa position et son impulsion mais par \textbf{une fonction à valeurs complexes appelée fonction d'onde} $\Psi_t$ à chaque instant $t$.  On parle d'état quantique. Les fonctions d'onde sont régies par la célèbre équation de Schrödinger $i \hbar \frac{d \Psi}{dt}=\hat{H}\Psi$, où $\hat{H}$ s'appelle l'Hamiltonien du système et joue le même rôle que $\vec{F}$, c'est un opérateur qui agit sur les fonctions d'onde $\psi _t$, $\hbar$ vaut $\frac{h}{2 \pi}$, $h$ étant la célèbre constante de Planck. On veut maintenant manipuler ces fonctions d'onde à l'aide d'opérateurs auto-adjoints qui agissent sur ces états. Ces opérateurs sont appelés des \textbf{observables} et jouent un rôle analogue à celui des grandeurs physiques en mécanique classique. Ils sont appelés observables car c'est par l'action de ces opérateurs sur les états qu'on peut comprendre et observer les particules quantiques. Par exemple, une observable peut être l'opérateur représentant la position, associe la valeur moyenne de la position dans un état $\psi$.\vspace{7 pt}
 
-~~~~~~ Deux opérateurs sont \textbf{au centre de la mécanique quantique}, l'opérateur de \textbf{position} $\hat{Q} : \psi \mapsto x \psi$ défini sur $\mathcal{H}=L^2(\R^n)$ et l'opérateur d'\textbf{impulsion} $\hat{P} : \psi \mapsto -i \hbar \frac{\partial \psi}{\partial x}$ défini sur $\mathcal{H}=L^2(\R^n)$. Ces espaces seront amenés à changer lors de ce mémoire.\vspace{7 pt}
+Deux opérateurs sont \textbf{au centre de la mécanique quantique}, l'opérateur de \textbf{position} $\hat{Q} : \psi \mapsto x \psi$ défini sur $\mathcal{H}=L^2(\R^n)$ et l'opérateur d'\textbf{impulsion} $\hat{P} : \psi \mapsto -i \hbar \frac{\partial \psi}{\partial x}$ défini sur $\mathcal{H}=L^2(\R^n)$. Ces espaces seront amenés à changer lors de ce mémoire.\vspace{7 pt}
 
 
-~~~~~~ Lorsqu'on mesure une observable sur un état quantique, on obtient une des valeurs spectrales de l'observable avec une certaine probabilité. Cette probabilité est donnée par le carré du module de la projection de l'état quantique sur le vecteur propre associé à cette valeur propre. Après la mesure, l'état quantique du système est projeté sur ce vecteur propre. C'est ce qu'on appelle le postulat de la réduction du paquet d'ondes. Il est important de noter que \textbf{les observables ne commutent pas toujours entre elles}, ce qui a pour conséquence le fameux principe d'incertitude de Heisenberg, donné par la célèbre inégalité $\Delta_x \Delta_p \geq \frac{\hbar}{2}$, où $\Delta_x$ (resp. $\Delta_p)$ représente l'écart-type de $\hat{Q}$ (resp. $\hat{P}$). Ce principe formulé en 1927 par Werner Heisenberg, stipule qu'il est impossible de mesurer simultanément avec une précision arbitraire la position et l'impulsion d'une particule quantique. En d'autres termes, plus on mesure précisément la position d'une particule, moins on peut connaître précisément son impulsion, et inversement. Ce principe se généralise pour tout couple d'observables ne commutant pas. Ce qui rend \textbf{difficile} la formulation de cette théorie dans l'espace des phases. Ce principe est souvent interprété comme une limitation fondamentale de la nature de la réalité physique quantique. \vspace{7 pt}
+Lorsqu'on mesure une observable sur un état quantique, on obtient une des valeurs spectrales de l'observable avec une certaine probabilité. Cette probabilité est donnée par le carré du module de la projection de l'état quantique sur le vecteur propre associé à cette valeur propre. Après la mesure, l'état quantique du système est projeté sur ce vecteur propre. C'est ce qu'on appelle le postulat de la réduction du paquet d'ondes. Il est important de noter que \textbf{les observables ne commutent pas toujours entre elles}, ce qui a pour conséquence le fameux principe d'incertitude de Heisenberg, donné par la célèbre inégalité $\Delta_x \Delta_p \geq \frac{\hbar}{2}$, où $\Delta_x$ (resp. $\Delta_p)$ représente l'écart-type de $\hat{Q}$ (resp. $\hat{P}$). Ce principe formulé en 1927 par Werner Heisenberg, stipule qu'il est impossible de mesurer simultanément avec une précision arbitraire la position et l'impulsion d'une particule quantique. En d'autres termes, plus on mesure précisément la position d'une particule, moins on peut connaître précisément son impulsion, et inversement. Ce principe se généralise pour tout couple d'observables ne commutant pas. Ce qui rend \textbf{difficile} la formulation de cette théorie dans l'espace des phases. Ce principe est souvent interprété comme une limitation fondamentale de la nature de la réalité physique quantique. \vspace{7 pt}
 
-~~~~~~ C'est dans ce contexte que la transformée de Weyl trouve toute son \textbf{importance}. \vspace{7 pt}
+C'est dans ce contexte que la transformée de Weyl trouve toute son \textbf{importance}. \vspace{7 pt}
 
-~~~~~~ Dans ce mémoire, on sera intéressé par l'étude d'une particule se déplaçant dans $\mathbb{R}^n$, on prendra l'espace des opérateurs de $L^2(\R^n)$ auto-adjoints. L'une des motivations de la transformée de Weyl est de vouloir formuler la mécanique quantique sur l'espace des phases, qui de base est formulée sur l'espace des positions, avec la grandeur physique $q$ (resp. $p$). \vspace{7 pt}
+Dans ce mémoire, on sera intéressé par l'étude d'une particule se déplaçant dans $\mathbb{R}^n$, on prendra l'espace des opérateurs de $L^2(\R^n)$ auto-adjoints. L'une des motivations de la transformée de Weyl est de vouloir formuler la mécanique quantique sur l'espace des phases, qui de base est formulée sur l'espace des positions, avec la grandeur physique $q$ (resp. $p$). \vspace{7 pt}
 
-~~~~~~ La \textbf{problématique de la quantification} est d'associer à chaque fonction $f$ sur l'espace des phase $\R^{2n}$ un opérateur $\hat{f}$ sur $L^2(\mathbb{R}^n)$ \textbf{auto-adjoint}. La première procédure de quantification et l'une des plus satisfaisante a été proposée par Weyl, elle propose d'associer un opérateur $\sigma(\hat{P},\hat{Q})$ agissant sur $\mathcal{H} = L^2(\R^n)$ à une fonction $\sigma(\xi, x)$ par la formule 
+La \textbf{problématique de la quantification} est d'associer à chaque fonction $f$ sur l'espace des phase $\R^{2n}$ un opérateur $\hat{f}$ sur $L^2(\mathbb{R}^n)$ \textbf{auto-adjoint}. La première procédure de quantification et l'une des plus satisfaisante a été proposée par Weyl, elle propose d'associer un opérateur $\sigma(\hat{P},\hat{Q})$ agissant sur $\mathcal{H} = L^2(\R^n)$ à une fonction $\sigma(\xi, x)$ par la formule
 
 $$\sigma(\hat{P},\hat{Q}) = \frac{1}{2 \pi \hbar} \iint \hat{\sigma} (p,q) e^{ \frac{i}{\hbar}(p\hat{P}+q\hat{Q})} dpdq$$
 
@@ -145,13 +145,13 @@ où $\hat{P}, \hat{Q}$ représentent les opérateurs d'impulsion et de position,
 Cette formule vient du fait suivant :
 Si on se donne une fonction $\sigma(\xi, x)$, on aimerait lui faire correspondre un opérateur $\sigma(D,x)$ auto-adjoint. En supposant que l'on peut écrire $\sigma(x, \xi)$ en son écriture de Fourier $\iint \hat{\sigma} (p,q) e^{2 \pi i (p \xi + q x)} dpdq$, en supposant que $e^{2 \pi i (p \xi + qx)}, p, q \in \R^n$ devrait correspondre à l'opérateur $e^{2 \pi i (p\hat{P} + q\hat{Q})}$. On serait alors amené à postuler la définition $(Weyl)$. \vspace{10 pt}
 
-~~~~~~ Le but de ce mémoire est d'expliquer la formule $(Weyl)$ mathématiquement et physiquement, qu'on illustrera par quelques exemples. On finira par étudier ses propriétés, en faisant un lien solide entre les aspects physique et mathématique des objets que l'on va être amenés à étudier au cours de ce mémoire afin d'expliquer $(4.2)$. On a besoin de cette correspondance car il n'est pas si évident d'associer un opérateur à une fonction sur l'espace des phase. Il serait tentant de penser que $pq$ devrait être associé à $\hat{P}\hat{Q}$ mais $pq = qp$ alors que le commutateur de $\hat{P}$ et $\hat{Q}$, $[\hat{P}, \hat{Q}] \neq 0$, c'est non commutatif. On doit alors réfléchir à une manière plus subtile de faire cette correspondance. On devra alors finalement munir cet espace de phase de nouvelles opérations afin de garder une belle structure.\vspace{10 pt}
+Le but de ce mémoire est d'expliquer la formule $(Weyl)$ mathématiquement et physiquement, qu'on illustrera par quelques exemples. On finira par étudier ses propriétés, en faisant un lien solide entre les aspects physique et mathématique des objets que l'on va être amenés à étudier au cours de ce mémoire afin d'expliquer $(4.2)$. On a besoin de cette correspondance car il n'est pas si évident d'associer un opérateur à une fonction sur l'espace des phase. Il serait tentant de penser que $pq$ devrait être associé à $\hat{P}\hat{Q}$ mais $pq = qp$ alors que le commutateur de $\hat{P}$ et $\hat{Q}$, $[\hat{P}, \hat{Q}] \neq 0$, c'est non commutatif. On doit alors réfléchir à une manière plus subtile de faire cette correspondance. On devra alors finalement munir cet espace de phase de nouvelles opérations afin de garder une belle structure.\vspace{10 pt}
 
 
 
-~~~~~~ La première partie sera consacrée à l'étude de certains objets mathématiques nécessaires à la compréhension de la suite du mémoire, elle introduit les bases mathématiques de la mécanique quantique ainsi que ses postulats, puis on va étudier la transformée de Fourier et son interprétation physique qui sera au c\oe ur de beaucoup d'objets étudiés dans ce mémoire, on finira ensuite cette première partie par une introduction aux opérateurs pseudo-différentiels ainsi que leurs symboles, objet mathématique au c\oe ur de la transformée de Weyl, bien que non nécessaire mais fournissant de mon point de vue une bonne motivation à l'étude de la transformée de Weyl. \vspace{10pt} 
+La première partie sera consacrée à l'étude de certains objets mathématiques nécessaires à la compréhension de la suite du mémoire, elle introduit les bases mathématiques de la mécanique quantique ainsi que ses postulats, puis on va étudier la transformée de Fourier et son interprétation physique qui sera au c\oe ur de beaucoup d'objets étudiés dans ce mémoire, on finira ensuite cette première partie par une introduction aux opérateurs pseudo-différentiels ainsi que leurs symboles, objet mathématique au c\oe ur de la transformée de Weyl, bien que non nécessaire mais fournissant de mon point de vue une bonne motivation à l'étude de la transformée de Weyl. \vspace{10pt}
 
-~~~~~~ La deuxième partie, centre de ce mémoire, sera consacrée à l'étude de la transformée de Weyl, on y commencera par étudier la transformée de Fourier-Wigner et son lien avec le groupe de Heisenberg et ses représentations irréductibles unitaires, puis on introduira la transformée de Wigner, qui sera avant tout expliquée pour motiver la transformée de Weyl rigoureusement, on finira cette partie par l'illustration de quelques exemples de correspondance entre fonction et opérateur par cet outil qu'est la transformée de Weyl, puis par le développement d'un calcul fonctionnel et agréable sur ces nouveaux objets. \vspace{10pt} 
+La deuxième partie, centre de ce mémoire, sera consacrée à l'étude de la transformée de Weyl, on y commencera par étudier la transformée de Fourier-Wigner et son lien avec le groupe de Heisenberg et ses représentations irréductibles unitaires, puis on introduira la transformée de Wigner, qui sera avant tout expliquée pour motiver la transformée de Weyl rigoureusement, on finira cette partie par l'illustration de quelques exemples de correspondance entre fonction et opérateur par cet outil qu'est la transformée de Weyl, puis par le développement d'un calcul fonctionnel et agréable sur ces nouveaux objets. \vspace{10pt}
 \emptypage
 
 \tableofcontents
@@ -168,7 +168,7 @@ Cette partie servira de rappels mathématiques sur des notions très utiles dans
 On introduit la notion d'espace de Hilbert, un objet qui est \textbf{à la la base de la formulation} de la mécanique quantique.
 
 \begin{definition}[Espace de Hilbert]
-On dit que $\mathcal{H}$ est un \textbf{espace de Hilbert} si c'est un espace vectoriel complexe, muni d'un produit scalaire hermitien, noté $\langle \cdot, \cdot \rangle$ : $\mathcal{H} \times \mathcal{H} \rightarrow \mathbb{C}$, on le considère anti-linéaire dans le premier argument. Et si il est complet pour la norme associée à son produit scalaire.
+    On dit que $\mathcal{H}$ est un \textbf{espace de Hilbert} si c'est un espace vectoriel complexe, muni d'un produit scalaire hermitien, noté $\langle \cdot, \cdot \rangle$ : $\mathcal{H} \times \mathcal{H} \rightarrow \mathbb{C}$, on le considère anti-linéaire dans le premier argument. Et si il est complet pour la norme associée à son produit scalaire.
 \end{definition}
 
 
@@ -177,8 +177,8 @@ On dit que $\mathcal{H}$ est un \textbf{espace de Hilbert} si c'est un espace ve
 \end{remark}
 
 \begin{definition}[Base hilbertienne d'un espace de Hilbert]
-Soit $\mathcal{H}$ un espace de Hilbert, on dit que $\{e_n\}_{n \in \mathbb{N}}$ est une \textbf{base hilbertienne} de $\mathcal{H}$ si :
-$\langle e_i, e_j \rangle = \delta_{ij}$ et pour tout $n \in \mathbb{N}$, $\langle \psi, e_n \rangle = 0$ entraîne $\psi = 0$.
+    Soit $\mathcal{H}$ un espace de Hilbert, on dit que $\{e_n\}_{n \in \mathbb{N}}$ est une \textbf{base hilbertienne} de $\mathcal{H}$ si :
+    $\langle e_i, e_j \rangle = \delta_{ij}$ et pour tout $n \in \mathbb{N}$, $\langle \psi, e_n \rangle = 0$ entraîne $\psi = 0$.
 \end{definition}
 
 Deux inégalités seront maintenant présentée, celle de Cauchy-Schwarz pour les espaces $L^p$, et celle de Young pour le produit de convolution. Elles seront très utiles pour les démonstrations du mémoire.
@@ -190,10 +190,10 @@ Deux inégalités seront maintenant présentée, celle de Cauchy-Schwarz pour le
 
 \begin{preuve}
     Soit $x, y \in \mathcal{H}$.
-    
+
     Si $\| x \| = 0$ alors $x=0$ et l'inégalité est immédiate.
 
-    Si $\| x\| \neq 0$ alors en développant 
+    Si $\| x\| \neq 0$ alors en développant
     $$\|y-\langle x, y \rangle \frac{x}{\|x\|^2}\|^2 \geq 0$$
     Il vient
     $$\|x\|^2\|y\|^2 \geq \langle x, y \rangle ^2$$
@@ -216,7 +216,7 @@ L'autre objet \textbf{fondamental} de la mécanique quantique est la notion d'op
     Un \textbf{opérateur} $T$ entre deux espaces de Hilbert est une application $T : \mathcal{D}(T) \subset \mathcal{H}_1 \ra \mathcal{H}_2$ telle que,
     \begin{itemize}
         \item $\mathcal{D}(T)$ est un sous-espace vectoriel de $\mathcal{H}_1$.
-        \item T est une application linéaire : $T(\alpha u + \beta v) = \alpha T u + \beta T v$ pour tout $\alpha$, $\beta \in \mathbb{C}$, pour tout $u$, $v \in \mathcal{D}(T)$. 
+        \item T est une application linéaire : $T(\alpha u + \beta v) = \alpha T u + \beta T v$ pour tout $\alpha$, $\beta \in \mathbb{C}$, pour tout $u$, $v \in \mathcal{D}(T)$.
     \end{itemize}
     où $\mathcal{D}(T)$ est le domaine de T.
 
@@ -226,11 +226,11 @@ L'autre objet \textbf{fondamental} de la mécanique quantique est la notion d'op
 On considère habituellement les opérateurs avec un \textbf{domaine dense}.
 
 \begin{definition}[Opérateur borné]
-Un opérateur $T : \mathcal{D} (T) \subset \mathcal{H}_1 \ra \mathcal{H}_2$ est \textbf{borné} si il existe une constante $c > 0$ telle que
-$$\|T u\|_2 \leq c \|u\|_1, \text{ pour tout }u \in \mathcal{D}(T).$$
+    Un opérateur $T : \mathcal{D} (T) \subset \mathcal{H}_1 \ra \mathcal{H}_2$ est \textbf{borné} si il existe une constante $c > 0$ telle que
+    $$\|T u\|_2 \leq c \|u\|_1, \text{ pour tout }u \in \mathcal{D}(T).$$
 
-La norme d'un opérateur borné est la plus petite constante c vérifiant l'inégalité précédente, et elle est donnée par
-$$\| T \| = \underset{u \in \mathcal{D} (T), u \neq 0}{sup} \frac{\|T u\|_2}{\|u\|_1}.$$
+    La norme d'un opérateur borné est la plus petite constante c vérifiant l'inégalité précédente, et elle est donnée par
+    $$\| T \| = \underset{u \in \mathcal{D} (T), u \neq 0}{sup} \frac{\|T u\|_2}{\|u\|_1}.$$
 \end{definition}
 
 \begin{proposition}
@@ -260,7 +260,7 @@ On définit $\mathcal{D}(T^*) := \{ v \in \mathcal{H} ; u \mapsto \langle v, T u
 \end{definition}
 
 \begin{definition}[Opérateur auto-adjoint]
-Un opérateur densément défini $T : \mathcal{D}(T) \subset \mathcal{H} \ra \mathcal{H}$ est \textbf{auto-adjoint} si $T^* = T$.
+    Un opérateur densément défini $T : \mathcal{D}(T) \subset \mathcal{H} \ra \mathcal{H}$ est \textbf{auto-adjoint} si $T^* = T$.
 \end{definition}
 En particulier, on a $\mathcal{D} (T) = \mathcal{D}(T^*)$.
 
@@ -269,7 +269,7 @@ En particulier, on a $\mathcal{D} (T) = \mathcal{D}(T^*)$.
     $\langle u, Tv \rangle = \langle T u, v \rangle, ~~\text{ pour tout } u, ~v \in \mathcal{D}(T).$
 \end{definition}
 
-En conséquence, pour les opérateurs auto-adjoints, on a, 
+En conséquence, pour les opérateurs auto-adjoints, on a,
 $$\langle u, T v \rangle = \langle T u, v \rangle, ~~\text{ pour tout } u,~v \in \mathcal{D}(T).$$
 
 En particulier, un opérateur auto-adjoint est symétrique.\vspace{10 pt}
@@ -289,7 +289,7 @@ L'égalité est vraie en dimension finie grâce au théorème spectral et au th�
 
 Une propriété intéressante des opérateurs auto-adjoint est par rapport à leur spectre.
 \begin{proposition}
-Le spectre d'un opérateur auto-adjoint est \textbf{réel}.
+    Le spectre d'un opérateur auto-adjoint est \textbf{réel}.
 \end{proposition}
 
 Toutes ces propositions sur les espaces de Hilbert ou les opérateurs ont été assumées pour vrai, l'objectif de cette partie étant avant tout de rappeler des résultats utiles pour la suite du mémoire.
@@ -314,32 +314,32 @@ On identifiera par la suite les fonctions d'ondes aux états.
 
 On appelle n'importe quel représentant de ces classes d'équivalence un \textbf{état}.
 \begin{remark}
-On généralise en arrêtant de parler de fonctions d'ondes. Pour la suite de ce mémoire, les états seront considérés comme des éléments de $\mathcal{H} = L^2(\R^n) \bigcap \mathcal{C}^0(\R^n)$. Pour tout instant $t$, on aura un espace d'état $H_t = L^2(\R^n) \bigcap \mathcal{C}^0(\R^n)$.
+    On généralise en arrêtant de parler de fonctions d'ondes. Pour la suite de ce mémoire, les états seront considérés comme des éléments de $\mathcal{H} = L^2(\R^n) \bigcap \mathcal{C}^0(\R^n)$. Pour tout instant $t$, on aura un espace d'état $H_t = L^2(\R^n) \bigcap \mathcal{C}^0(\R^n)$.
 \end{remark}\vspace{10pt}
 
 Introduite par Paul Dirac en 1939, la notation bra-ket a pour but de souligner l'aspect vectoriel d'un état quantique, son nom vient de $\langle \cdot, \cdot \rangle$ prononcé bracket en anglais. Bien que cette notation ne sera pas utilisée dans la suite de ce mémoire, je trouvais intéressant de la présenter. \vspace{5pt}
 
 \begin{definition}[Notation bra-ket]
-.
-\begin{itemize}
-\item \textbf{Les Kets} : Soit $\psi$ un vecteur de l'espace des états $\mathcal{H}$, il est souvent noté $| \psi \rangle$, ils forment un espace vectoriel complexe. On introduit maintenant leur duaux : les bras
-\item \textbf{Les bras} : L'espace duale des états est noté $\mathcal{H}^*$ et ses éléments sont appelés bras, si $v \in \mathcal{H}^*$, on l'écrit $\langle v |$
-\end{itemize}
+    .
+    \begin{itemize}
+        \item \textbf{Les Kets} : Soit $\psi$ un vecteur de l'espace des états $\mathcal{H}$, il est souvent noté $| \psi \rangle$, ils forment un espace vectoriel complexe. On introduit maintenant leur duaux : les bras
+        \item \textbf{Les bras} : L'espace duale des états est noté $\mathcal{H}^*$ et ses éléments sont appelés bras, si $v \in \mathcal{H}^*$, on l'écrit $\langle v |$
+    \end{itemize}
 \end{definition}
 
 Le premier postulat est le \textbf{principe de superposition}, à chaque instant $t$, l'état d'un système est entièrement défini par un vecteur $|\psi(t)\rangle$ d'un espace de Hilbert $\mathcal{H}$. \vspace{10pt}
 
 \begin{definition}[Observable]
-Soit $\mathcal{H}$ un Hilbert. Une \textbf{observable} est un opérateur auto-adjoint de $\mathcal{H}$.
+    Soit $\mathcal{H}$ un Hilbert. Une \textbf{observable} est un opérateur auto-adjoint de $\mathcal{H}$.
 \end{definition}
 \begin{remark}
-D'après la proposition 3, son spectre est donc réel.
+    D'après la proposition 3, son spectre est donc réel.
 \end{remark}
 
 On comprendra l'intérêt du spectre réel dans le troisième postulat. Le prochain postulat, appelé le \textbf{principe de correspondance}, dit qu'à toute propriété observable, on va associer un opérateur auto-adjoint linéaire agissant sur les vecteurs états d'un espace de Hilbert $\mathcal{H}$. Cet opérateur est nommé \textbf{observable}. On va associer à une quantité physique $A$ l'observable $\hat{A}$, par exemple à la position $x,~y,~z,~r$ on associe la multiplication par $x,~y,~z,~r$, à l'impulsion $p_x,~ p_y,~ p_z$ on associe les opérateurs de dérivations $-i \hbar \frac{\partial}{\partial x}$, $-i \hbar \frac{\partial}{\partial y}$, $-i \hbar \frac{\partial}{\partial z}$.\vspace {10pt}
 
 \begin{remark}
-On peut définir la valeur attendue d'une observable $A$ dans l'état $\psi$ est défini par $ \langle A \rangle_{\psi} := \langle \psi, A \psi \rangle = \langle A \psi, \psi \rangle.$ Cette valeur est réelle. On peut l'interpréter comme une moyenne, une espérance. Par exemple la valeur moyenne de la position d'une particule quantique dans un état $\psi \in L^2(\R^n)$ est $\langle P \rangle _\psi$.
+    On peut définir la valeur attendue d'une observable $A$ dans l'état $\psi$ est défini par $ \langle A \rangle_{\psi} := \langle \psi, A \psi \rangle = \langle A \psi, \psi \rangle.$ Cette valeur est réelle. On peut l'interpréter comme une moyenne, une espérance. Par exemple la valeur moyenne de la position d'une particule quantique dans un état $\psi \in L^2(\R^n)$ est $\langle P \rangle _\psi$.
 \end{remark}\vspace{5pt}
 
 Le \textbf{troisième postulat} porte sur la valeur possible des observables, la mesure d'une grandeur physique représentée par l'observable $A$ ne peut fournir que l'une des valeurs propres de $A$. Cela explique que dans la définition d'une observable il y a la condition nécessaire d'être auto-adjoint.
@@ -372,11 +372,11 @@ On note aussi, pour $\alpha$ et  $\beta$ deux multi-indice, $\alpha! = \alpha_1!
 Commençons par introduire des espaces utiles pour tout la suite du mémoire, puisque l'on commencera souvent par établir des résultats sur ces espaces, car ils sont plus simple à démontrer, et utiliser leur densités dans les espaces $L^p$ pour étendre les résultats aux espaces $L^p$.
 
 \begin{definition}[Fonction à décroissance rapide (sur $\mathbb{R}^n$)]
-Une fonction $f : \mathbb{R}^n \rightarrow \mathbb{R}^n$ est dite "à décroissance rapide" si elle est indéfiniment différentiable et telle que $ \underset{x \in \mathbb{R}^n}{sup} |x^\alpha (\partial ^\beta \varphi)(x)| < \infty$ pour tout multi-indice $\alpha$ et $\beta$.
+    Une fonction $f : \mathbb{R}^n \rightarrow \mathbb{R}^n$ est dite "à décroissance rapide" si elle est indéfiniment différentiable et telle que $ \underset{x \in \mathbb{R}^n}{sup} |x^\alpha (\partial ^\beta \varphi)(x)| < \infty$ pour tout multi-indice $\alpha$ et $\beta$.
 \end{definition}
 
 \begin{definition}[Espace de Schwartz (sur $\mathbb{R}^n$)]
-L'espace de Schwartz $\mathcal{S}(\mathbb{R}^n)$ est l'ensemble des fonctions à décroissance rapide sur $\mathbb{R}^n$.
+    L'espace de Schwartz $\mathcal{S}(\mathbb{R}^n)$ est l'ensemble des fonctions à décroissance rapide sur $\mathbb{R}^n$.
 \end{definition}
 
 \begin{definition}[Fonction $C_c^\infty(\R^n)$]
@@ -392,22 +392,22 @@ L'espace de Schwartz $\mathcal{S}(\mathbb{R}^n)$ est l'ensemble des fonctions à
 \end{remark}
 
 \begin{definition}[Transformée de Fourier d'une fonction $L^1(\mathbb{R}^n)$]
-On note la transformée de Fourier d'une telle fonction f par $\hat{f}$, et on a 
-$$\hat{f}(\xi) := (2 \pi)^{-n/2} \int _{\mathbb{R}^n} e^{-ix \xi} f(x) dx ~~ \xi \in \mathbb{R}^n$$
+    On note la transformée de Fourier d'une telle fonction f par $\hat{f}$, et on a
+    $$\hat{f}(\xi) := (2 \pi)^{-n/2} \int _{\mathbb{R}^n} e^{-ix \xi} f(x) dx ~~ \xi \in \mathbb{R}^n$$
 \end{definition}
 
 La transformée de Fourier fournit un lien profond entre l'étalement spatiale d'un objet, par exemple une onde, une particule, et son étalement en fréquence. Elle est ainsi très utilisée dans l'ingénierie du son, ou par exemple pour étudier la propagation de la chaleur. Ce lien est expliqué par le fait que l'on peut interpréter la transformée de Fourier en chaque point comme un produit scalaire d'une exponentielle oscillante d'une certaine fréquence et d'une fonction f, on obtient ainsi naturellement la décomposition de f en une somme infiniment continue de ses fréquences.
 
-Pour une fonction d'onde $\psi : x \mapsto \psi(x)$ sur l'espace position on notera sa $\varphi : p \mapsto \varphi(p)$ sa transformée de Fourier sur l'espace impulsion. Quand on voit les variables $x$ et $p$ dans un couple, $x$ fera souvent référence à la position et $p$ à l'impulsion. 
+Pour une fonction d'onde $\psi : x \mapsto \psi(x)$ sur l'espace position on notera sa $\varphi : p \mapsto \varphi(p)$ sa transformée de Fourier sur l'espace impulsion. Quand on voit les variables $x$ et $p$ dans un couple, $x$ fera souvent référence à la position et $p$ à l'impulsion.
 
 
 \begin{remark}
-$\| \psi \| = 1$ si et seulement si $\| \varphi \| =1$
+    $\| \psi \| = 1$ si et seulement si $\| \varphi \| =1$
 \end{remark}
 
 \begin{remark}
-On peut donner une autre écriture de la transformée de Fourier :
-$$\varphi(p) := \frac{1}{\sqrt{2 \pi \hbar}} \int_{\mathbb{R}^n} e^{-ix \frac{p}{\hbar}} \psi(x) dx$$
+    On peut donner une autre écriture de la transformée de Fourier :
+    $$\varphi(p) := \frac{1}{\sqrt{2 \pi \hbar}} \int_{\mathbb{R}^n} e^{-ix \frac{p}{\hbar}} \psi(x) dx$$
 \end{remark}
 
 On aura besoin du résultat suivant dans le chapitre 2, il sera admis, la démonstration utilisant des résultats d'analyse complexe.
@@ -432,7 +432,7 @@ On va maintenant étudier les propriétés générales de la transformée de Fou
 \begin{proposition}
     Soit $\varphi \in L^1(\R^n)$. Alors pour tout multi-indices $\alpha$, \vspace{5pt}
 
-    
+
     \begin{itemize}
         \item $(D^\alpha \varphi) \hat{~} (\xi) = \xi ^\alpha \hat{\varphi} (\xi) ,~~ \xi \in \R^n$.
         \item $(D^\alpha \hat{\varphi}) (\xi) = ((-x)^\alpha \varphi) \hat{~} (\xi),~~ x \in \R^n,~ \xi \in \R^n$.
@@ -442,43 +442,43 @@ On va maintenant étudier les propriétés générales de la transformée de Fou
 Pour mieux comprendre comment la transformée de Fourier fonctionne et comment la position et l'impulsion d'une particule quantique sont reliés à travers elle, on peut introduire les opérateurs suivants et regarder comment elle agit sur eux.
 
 \begin{definition}[Opérateurs de translation, dilatation et modulation]
-On note les opérateurs suivants sur l'espace des fonctions : \vspace{5pt}
+    On note les opérateurs suivants sur l'espace des fonctions : \vspace{5pt}
     \begin{itemize}
-    \item L'opérateur de \textbf{translation} : $T_yf~(x) := f(x+y),~~~x \in \mathbb{R}^n$.
-    \item L'opérateur de \textbf{modulation} : $M_yf~(x) := e^{ixy}f(x),~~~x \in \mathbb{R}^n$.
-    \item L'opérateur de \textbf{dilatation} : $D_af~(x) := f(ax),~~~x \in \mathbb{R}^n$.
+        \item L'opérateur de \textbf{translation} : $T_yf~(x) := f(x+y),~~~x \in \mathbb{R}^n$.
+        \item L'opérateur de \textbf{modulation} : $M_yf~(x) := e^{ixy}f(x),~~~x \in \mathbb{R}^n$.
+        \item L'opérateur de \textbf{dilatation} : $D_af~(x) := f(ax),~~~x \in \mathbb{R}^n$.
     \end{itemize}
-pour tout $y \in \mathbb{R}^n$ et $~a \in \mathbb{R}^*$.
+    pour tout $y \in \mathbb{R}^n$ et $~a \in \mathbb{R}^*$.
 \end{definition}
 
 \begin{proposition}[Comment agit la transformée de Fourier sur les opérateurs de translation, modulation et dilatation]
- .
- 
- \vspace{5pt}
-Soit $f \in L^1(\mathbb{R}^n)$, on a : %dans L2 ?
-\begin{itemize}
-    \item $\widehat{T_yf}(\xi) = M_y\hat{f}(\xi)$.
-    \item $\widehat{M_yf}(\xi) = T_{-y}\hat{f}(\xi)$.
-    \item $\widehat{D_af}(\xi) = |a|^{-n}(D_{\frac{1}{a}} \hat{f})(\xi)$.
-\end{itemize}
-pour tout $\xi \in \mathbb{R}^n$.
+    .
+
+    \vspace{5pt}
+    Soit $f \in L^1(\mathbb{R}^n)$, on a : %dans L2 ?
+    \begin{itemize}
+        \item $\widehat{T_yf}(\xi) = M_y\hat{f}(\xi)$.
+        \item $\widehat{M_yf}(\xi) = T_{-y}\hat{f}(\xi)$.
+        \item $\widehat{D_af}(\xi) = |a|^{-n}(D_{\frac{1}{a}} \hat{f})(\xi)$.
+    \end{itemize}
+    pour tout $\xi \in \mathbb{R}^n$.
 \end{proposition}
 
 \begin{remark}
-Le troisième point signifie que contracter une fonction dans la variable de Fourier revient à la dilater dans l'autre variable.
+    Le troisième point signifie que contracter une fonction dans la variable de Fourier revient à la dilater dans l'autre variable.
 \end{remark}
 On comprend ainsi que plus une particule quantique sera localisée dans l'espace, plus son impulsion sera très étalée, inversement si une particule quantique à une impulsion très localisée, elle sera très étalée dans l'espace des positions.
 
 
 \begin{theorem}[La formule d'inversion de Fourier]
-La transformée de Fourier est une application bijective de $S(\mathbb{R}^n)$ sur $S(\mathbb{R}^n)$, de plus $\check{\hat{f}} = f, ~f \in S(\mathbb{R}^n)$ où 
-$$ \check{g} = (2 \pi)^{-n/2} \int _{\mathbb{R}^n} e^{ix \xi} g( \xi) d \xi$$
+    La transformée de Fourier est une application bijective de $S(\mathbb{R}^n)$ sur $S(\mathbb{R}^n)$, de plus $\check{\hat{f}} = f, ~f \in S(\mathbb{R}^n)$ où
+    $$ \check{g} = (2 \pi)^{-n/2} \int _{\mathbb{R}^n} e^{ix \xi} g( \xi) d \xi$$
 \end{theorem}
 
 Il est bon d'étendre cet opérateur aux fonctions de carrés intégrables, justifié par le postulat de la mécanique quantique de l'interprétation probabiliste des fonctions d'ondes.
 
 \begin{theorem}[Le théorème de Plancherel]
-L'application $\mathcal{F} : S(\mathbb{R}^n) \rightarrow S(\mathbb{R}^n)$ peut être étendue de façon \textbf{unique} en un opérateur unitaire de $L^2(\mathbb{R}^n)$
+    L'application $\mathcal{F} : S(\mathbb{R}^n) \rightarrow S(\mathbb{R}^n)$ peut être étendue de façon \textbf{unique} en un opérateur unitaire de $L^2(\mathbb{R}^n)$
 \end{theorem}
 
 \begin{proposition}[$\mathcal{F}$ est un opérateur symétrique.]
@@ -496,15 +496,15 @@ On va les introduire par une manière naïve, celle de calculer la valeur moyenn
 
 Soit une particule quantique dans l'état $\psi \in L^2(\mathbb{R}^n)$. \vspace{10 pt}
 
-Alors \textbf{la valeur moyenne de sa position} est, 
+Alors \textbf{la valeur moyenne de sa position} est,
 $$\langle \mathcal{Q} \rangle_\psi = \langle \psi, \mathcal{Q} \psi \rangle = \int \psi^*(x)(x\psi(x))dx$$
 
-On définit donc l'opérateur position par 
+On définit donc l'opérateur position par
 $$\mathcal{Q} : \psi(x) \mapsto x \psi(x)$$
 
 Normalement, on s'attend à ce que l'opérateur impulsion et position soient liés par la transformé de Fourier, en effet, la transformée de Fourier relie la position et la fréquence.\vspace{5pt}
 
-La \textbf{valeur moyenne de l'impulsion} sur l'espace impulsion est donnée par 
+La \textbf{valeur moyenne de l'impulsion} sur l'espace impulsion est donnée par
 $$ \langle \varphi, p \varphi \rangle = \int \varphi^* (p)(p \varphi(p)) dp$$
 
 Cependant on aimerait que ces opérateurs soient définis sur le même espace position, on cherche donc à ne plus avoir une intégrale en $p$ mais une intégrale en $x$. Comme la transformée de Fourier est un opérateur symétrique, on obtient :
@@ -520,7 +520,7 @@ $$(P_j \psi)(x) =-i \hbar \frac{\partial \psi}{ \partial x_j}(x)$$
 
 Pour tout $x \in \R^n$.
 \begin{remark}
-On remarque qu'elles sont transformées de Fourier l'une de l'autre.
+    On remarque qu'elles sont transformées de Fourier l'une de l'autre.
 \end{remark} \vspace{10 pt}
 
 Est-ce que comme en mécanique classique, $\hat{P}$ et $\hat{Q}$ commutent ? La réponse est non.
@@ -549,12 +549,12 @@ En 1925, Max Born énonce une future définition de la mécanique quantique qui 
 
 On va introduire maintenant la \textbf{théorie des opérateurs pseudo-différentiels} qui sont essentiels à la compréhension de la suite du mémoire. Ils serviront essentiellement à justifier une généralisation de $(Weyl)$.
 
-\begin{definition}[Opérateur différentiel linéaire (sur $\mathbb{R}^n$)] 
-On définit un \textbf{opérateur différentiel linéaire} (sur $\mathbb{R}^n$) par $\underset{|\alpha| \leq m}{\sum} a_\alpha (x) D^\alpha, ~~ x \in \mathbb{R}^n$ et noté $P(x, D)$.
-Où $\alpha = (\alpha_1, \cdots, \alpha_n)$ est un multi-index, $m$ est un entier naturel, $a_\alpha$ est une fonction de $\R^n$, $D^\alpha = D_{\alpha_1}^{\alpha_1} \cdots D_{\alpha_n}^{\alpha_n}$ et $D_x = -i \partial _x$
+\begin{definition}[Opérateur différentiel linéaire (sur $\mathbb{R}^n$)]
+    On définit un \textbf{opérateur différentiel linéaire} (sur $\mathbb{R}^n$) par $\underset{|\alpha| \leq m}{\sum} a_\alpha (x) D^\alpha, ~~ x \in \mathbb{R}^n$ et noté $P(x, D)$.
+    Où $\alpha = (\alpha_1, \cdots, \alpha_n)$ est un multi-index, $m$ est un entier naturel, $a_\alpha$ est une fonction de $\R^n$, $D^\alpha = D_{\alpha_1}^{\alpha_1} \cdots D_{\alpha_n}^{\alpha_n}$ et $D_x = -i \partial _x$
 \end{definition}
 
-On va maintenant essayer d'écrire cet opérateur différemment, en utilisant son écriture de Fourier, 
+On va maintenant essayer d'écrire cet opérateur différemment, en utilisant son écriture de Fourier,
 
 Pour $f \in \mathcal{S}(\R^n)$, d'après la formule d'inversion de Fourier, on peut écrire $f$ comme : $$f(x) = \check{\hat{f}}(x) =\frac{1}{(2 \pi)^{n/2}} \check{\int}_{\mathbb{R}^n} e^{-i x t} f(t) ~ dt =\frac{1}{(2 \pi)^{n/2}} \int_{\mathbb{R}^n} e^{i \xi x} \left(\int_{\mathbb{R}^n} e^{-ixt} f(t) dt\right) ~ d \xi$$
 
@@ -567,29 +567,29 @@ $$=\frac{1}{(2 \pi)^{n/2}} \int_{\mathbb{R}^n} \underset{symbole}{\underbrace{\u
 On appelle alors $\underset{|\alpha| \leq m}{\sum} a_\alpha (x) \xi^\alpha$ le \textbf{symbole} de l'opérateur différentiel $P(x,D)$. Car formellement on remarque que $P(x,D)$ ne dépend que se ce symbole. On peut ainsi donner une définition plus large des opérateurs différentiels, en les définissant par leurs symboles et non plus par un opérateur. On les appelle opérateurs pseudo-différentiels. On sera amené à choisir des espaces de symboles plus grand dans la suite.
 
 \begin{definition}[Symbole]
-Soit $m \in \mathbb{R}$. On définit comme $S^m$ l'ensemble des fonctions $~\mathcal{C}^\infty(\mathbb{R}^{2n})$ telles que pour tous multi-indices $\alpha$ et $\beta$, il existe une constante positive $C_{\alpha, \beta}$ dépendant uniquement de $\alpha$ et $\beta$, tel que l'on ait :
-$$|(D_x^\alpha D_\xi^\beta \sigma)(x, \xi)| \leq C_{\alpha, \beta}(1+|\xi|)^{m-|\beta|},~ x,~ \xi \in \mathbb{R}^n$$
+    Soit $m \in \mathbb{R}$. On définit comme $S^m$ l'ensemble des fonctions $~\mathcal{C}^\infty(\mathbb{R}^{2n})$ telles que pour tous multi-indices $\alpha$ et $\beta$, il existe une constante positive $C_{\alpha, \beta}$ dépendant uniquement de $\alpha$ et $\beta$, tel que l'on ait :
+    $$|(D_x^\alpha D_\xi^\beta \sigma)(x, \xi)| \leq C_{\alpha, \beta}(1+|\xi|)^{m-|\beta|},~ x,~ \xi \in \mathbb{R}^n$$
 
-On appelle n'importe quel $\sigma \in \underset{m \in \mathbb{R}}{\bigcup} S^m$ \textbf{un symbole}.
+    On appelle n'importe quel $\sigma \in \underset{m \in \mathbb{R}}{\bigcup} S^m$ \textbf{un symbole}.
 \end{definition}
 
 \begin{remark}
-On demande à contrôler la croissance par rapport à la variable $\xi$, l'intérêt est dans son utilisation future dans la transformée de Fourier afin d'assurer la convergence.
+    On demande à contrôler la croissance par rapport à la variable $\xi$, l'intérêt est dans son utilisation future dans la transformée de Fourier afin d'assurer la convergence.
 \end{remark}
 
 On peut donc maintenant associer de façon beaucoup plus générale un symbole à un opérateur, que l'on appellera opérateur pseudo-différentiel.
 
 \begin{definition}[Opérateur pseudo-différentiel associé à un symbole]
 
-On définit l'\textbf{opérateur pseudo-différentiel} $T_\sigma$ correspond au symbole $\sigma$ par
-$$(T_\sigma \varphi)(x) = (2\pi)^{-n/2} \int_{\mathbb{R}^n} e^{ix \xi} \sigma(x, \xi) \hat{\varphi} (\xi) d \xi, ~~ x \in \mathbb{R}^n$$
-pour tout $\varphi \in S(\mathbb{R}^n)$
+    On définit l'\textbf{opérateur pseudo-différentiel} $T_\sigma$ correspond au symbole $\sigma$ par
+    $$(T_\sigma \varphi)(x) = (2\pi)^{-n/2} \int_{\mathbb{R}^n} e^{ix \xi} \sigma(x, \xi) \hat{\varphi} (\xi) d \xi, ~~ x \in \mathbb{R}^n$$
+    pour tout $\varphi \in S(\mathbb{R}^n)$
 \end{definition}
 
 On remarque le lien avec le \textbf{problème de la quantification}, on a pu associer à une fonction particulière de $\mathbb{R}^{2n}$ un opérateur. On peut donc maintenant commencer à étudier l'opérateur proposé par Weyl $(Weyl)$ en le généralisant aux opérateurs pseudo-différentiels, formulée par Hörmander en.
 
 \begin{proposition}
-Soit $\sigma$ un symbole. Alors l'opérateur pseudo différentiel $T_\sigma$ est une \textbf{application continue} de $\mathcal{S}(\mathbb{R}^n)$ dans $\mathcal{S}(\mathbb{R}^n)$.
+    Soit $\sigma$ un symbole. Alors l'opérateur pseudo différentiel $T_\sigma$ est une \textbf{application continue} de $\mathcal{S}(\mathbb{R}^n)$ dans $\mathcal{S}(\mathbb{R}^n)$.
 \end{proposition}
 
 \emptypage
@@ -732,15 +732,15 @@ On peut alors donner une formule plus explicite de $V(f,g)$.
 \end{proposition}
 
 \begin{preuve}
-    Soit $f$ et $g$ dans $\mathcal{S}(\R^n)$, alors d'après la définition, on a 
+    Soit $f$ et $g$ dans $\mathcal{S}(\R^n)$, alors d'après la définition, on a
     $$V(f,g)(q,p) = (2 \pi)^{-n/2} \langle \rho(q,p)f,g \rangle$$
     Comme $\rho(p,q)$ est un \textbf{opérateur unitaire}, on peut l'écrire sous la forme d'une intégrale, la convergence de l'intégrale étant justifiée par l'\textbf{inégalité de Cauchy-Schwartz}.
-    
+
     $$(2 \pi)^{-n/2} \int_{\R^n}e^{iqx+\frac{1}{2}iqp}f(x+p)\overline{g(x)}dx$$
     On fait alors le changement de variable $x = y-\frac{p}{2}$ et on obtient
 
     $$V(f,g)(q,p) = (2 \pi)^{-n/2} \int_{R^n} e^{iq \. y} f\left(y + \frac{p}{2}\right) \overline{g\left(y-\frac{p}{2}\right)}dy$$
-    
+
 \end{preuve}
 
 Une propriété intéressante est la bilinéarité de la transformée de Fourier-Wigner.
@@ -781,10 +781,10 @@ On commence par calculer la transformée de Fourier de la transformée de Fourie
 \begin{preuve}
     Soit $\epsilon >0$, on définit la fonction $I_\epsilon$ sur $\R^{2n}$ par
     $$I_\epsilon(x, \xi) = \int_{\R^n} \int_{\R^n} e^{-\frac{\epsilon ^2 |q|^2}{2}} e^{-ix \. q - i \xi \. p}V(f,g)(q,p)~dqdp,~ x,~ \xi \in \R^n$$
-    
+
     On a alors, en décomposant $V(f,g)$,
     $$I_\epsilon(x, \xi) = (2 \pi)^{-n/2}\int_{\R^n} \int_{\R^n} e^{-\frac{\epsilon ^2 |q|^2}{2}} e^{-ix \. q - i \xi \. p} \times \left(\int_{\R^n} e^{iq\.y} f\left(y+\frac{p}{2}\right) \overline{g\left(y-\frac{p}{2}\right)}dy\right) dp dq$$
-    
+
     Par Fubini, on a :
     $$= (2 \pi)^{-n/2}\int_{\R^n} e^{ - i \xi \. p} \left(\int_{\R^n}\left(\int_{\R^n}  e^{-i(x-y)\.q}e^{-\frac{\epsilon ^2 |q|^2}{2}} dq\right) f\left(y+\frac{p}{2}\right) \overline{g\left(y-\frac{p}{2}\right)} \right) dy dp$$
 
@@ -795,22 +795,22 @@ On commence par calculer la transformée de Fourier de la transformée de Fourie
     $$F_p(y) = f\left(y+\frac{p}{2}\right)\overline{g\left(y-\frac{p}{2}\right)},~ y \in \R^n$$
 
     Et on définit la fonction $\varphi_\epsilon$ par $\varphi_\epsilon(y) = \epsilon^{-n} e^{-\frac{|x-y|^2}{2 \epsilon ^2}}$\vspace{5pt}
-    
+
     Alors on a,
     $$I_\epsilon (x, \xi) = \int_{\R^n} e^{-i \xi \. p}(F_p * \varphi_\epsilon)(x)dp$$
 
-    Pour $p$ fixé on a, 
+    Pour $p$ fixé on a,
     $$F_p * \varphi_\epsilon \ra (2 \pi) ^{n/2} F_p \text{ uniformément sur chaque compact de } \R^n \text{ quand } \epsilon \ra 0$$
 
     On va essayer de majorer la valeur absolue de ce qu'on intègre pour pouvoir applique le théorème de convergence dominé de Lebesgue,\vspace{5pt}
 
     On peut appliquer l'inégalité de Young pour la convolution avec $p =1, q = 0$ dans ce cas précis.
-    
+
     $$|(F_p * \varphi _\epsilon)(x)| \leq \|F_p\|_{L^\infty(\R^n)} \|\varphi _\epsilon\|_{L^1(\R^n)}$$
     $$= \|F_p\|_{L^\infty(\R^n)} \|\varphi\|_{L^1(\R^n)}$$
     $$\leq (2 \pi) ^{n/2} \underset{y \in \R^n}{sup}\left|f(y+\frac{p}{2}) f(y- \frac{p}{2})\right|$$
     Comme ce sont des fonctions Schwarz, il existe un entier positif $N$ et une constante $C_N$ tel que
-    $$\leq C_N (1+|p|^2)^{-N}, x, p \in \R^n$$ 
+    $$\leq C_N (1+|p|^2)^{-N}, x, p \in \R^n$$
     pour tout $\epsilon \geq 0$.
 
     Donc on peut utiliser le théorème de convergence dominé de Lebesgue,
@@ -836,8 +836,8 @@ On peut maintenant définir la transformée de Wigner de deux fonctions de $\mat
 \end{definition}
 
 \begin{theorem}[Identité de Moyal]
-Pour tout $f_1, g_1, f_2, g_2 \in \mathcal{S}(\R^n)$, on a,
-$$\langle W(f_1, g_1), W(f_2, g_2) \rangle = \langle f_1, f_1 \rangle \overline{\langle g_1,g_2 \rangle}.$$
+    Pour tout $f_1, g_1, f_2, g_2 \in \mathcal{S}(\R^n)$, on a,
+    $$\langle W(f_1, g_1), W(f_2, g_2) \rangle = \langle f_1, f_1 \rangle \overline{\langle g_1,g_2 \rangle}.$$
 \end{theorem}
 
 \begin{remark}
@@ -879,7 +879,7 @@ On va donc maintenant introduire la transformée de Weyl et son lien avec la tra
 
 On arrive maintenant au c\oe ur de ce mémoire, mais avant d'introduire la transformée de Weyl, on va introduire des outils nécessaires afin de comprendre et motiver son introduction.\vspace{5pt}
 
-Soit $\sigma \in S^m$, $m \in \R$, alors pour toute fonction $\varphi \in \mathcal{S} (\R^n)$, on se souvient à la fin de la première partie que 
+Soit $\sigma \in S^m$, $m \in \R$, alors pour toute fonction $\varphi \in \mathcal{S} (\R^n)$, on se souvient à la fin de la première partie que
 $$(T_\sigma \varphi)(x) = (2 \pi) ^{-n} \int_{\R^n} \int_{\R^n} e^{i(x-y) \. \xi} \sigma (x, \xi) \varphi(y) dy d\xi, x \in \R ^n$$\vspace{5pt}
 
 On a une autre façon d'associer $\sigma$ à un opérateur, la formule de Hörmander,
@@ -944,7 +944,7 @@ On appelle $W_\sigma$ la transformée de Weyl associée au symbole $\sigma$. Le 
     On pose $u = x + \frac{p}{2}, v = x-\frac{p}{2}$ alors
     $$\int_{\R^n} \int_{\R^n} \sigma (x, \xi) W(f,g)(x, \xi) dx d\xi$$
     $$=\underset{\epsilon \ra 0_+}{lim} \int_{\R^n} \theta(x \xi) \left( \int_{\R^n}\int_{\R^n} \sigma\left(\frac{u+v}{2}, \xi\right) e^{i(v-u) \. \xi} f(u) \overline{g(v)} du dv \right) d \xi$$
-    On échange les intégrales par le théorème de Fubini, 
+    On échange les intégrales par le théorème de Fubini,
     $$=\underset{\epsilon \ra 0_+}{lim} \int_{\R^n} \overline{g(v)} \left( \theta(x \xi) \sigma\left(\frac{u+v}{2}, \xi\right) e^{i(v-u) \. \xi} f(u) du d\xi\right) dv$$
     $$= (2 \pi)^{-n/2} \int_{\R^n} \overline{g(v)} (W_\sigma f)(v) dv = (2 \pi)^{n/2} \langle W_\sigma f, g\rangle$$
 \end{preuve}
@@ -980,21 +980,21 @@ Il est bon de chercher à étendre cet opérateur.
 
     Alors on a $$\langle(Q_\sigma)f, g \rangle = \langle W_\sigma f, g \rangle = (2 \pi)^{-n/2} \int_{\R^n} \int_{\R^n} \sigma (x, \xi) W(f,g)(x, \xi) dx d\xi$$ pour tout $f, g \in \mathcal{S}(\R^n)$.
 
-    
+
 
     $$|\langle (Q_\sigma)f, g \rangle| \leq (2 \pi)^{-n/2} \|\sigma\|_{L^2(\R^n)} \|W(f,g)\|_{L^2(\R^n)} = (2 \pi)^{-n/2} \|\sigma\|_{L^2(\R^n)} \|f\|_{L^2(\R^n)} \|g\|_{L^2(\R^n)}$$ pour tout $f, g \in \mathcal{S}(\R^n)$.\vspace{5pt}
-    
+
     Donc
     $$\|Q_\sigma f\|_* \leq (2 \pi)^{-n/2} \|\sigma\|_{L^2(\R^n)} \|f\|_{L^2(\R^n)}$$ pour tout $f \in S(\R^n)$, donc
     $$\|Q_\sigma\|_* \leq (2 \pi)^{-n/2} \|\sigma\|_{L^2(\R^n)}. $$\vspace{10pt}
 
 
-    
+
     Maintenant soit $\sigma \in L^2(\R^n).$ Soit $\{\sigma_k\}_{k=1}^\infty$ une suite de fonctions de $\mathcal{S}(\R^{2n})$ telle que $\sigma_k \ra \sigma$ dans $L^2(\R^n)$ quand $k \ra \infty$, alors
     $$\|Q_{\sigma_k}-Q_{\sigma_l}\|_* \leq (2 \pi)^{-n/2} \|\sigma_k - \sigma _l\|_{L^2(\R^{2n})} \ra 0$$ quand $k, l \ra \infty$.\vspace{4pt}
 
     Alors $\{Q_{\sigma_k}\}_{k=1}^\infty$ est une suite de Cauchy dans $B(L^2(\R^n))$. Elle converge donc, comme c'est un espace de Hilbert. On définit $Q_\sigma$ sa limite dans $B(L^2(\R^n))$. \vspace{4pt}
-    
+
     Cette définition est indépendante du choix de la suite, mais soit $\{\tau_k\}$ une autre suite de fonction dans $\mathcal{S}(\R^{2n})$ tel que $\tau_k \ra \sigma$ dans $L^2(\R^{2n})$ quand $k \ra \infty$. Alors,
     $$\|Q_{\sigma_k}- Q_{\tau_k}\|_* \leq (2 \pi)^{-n/2} \|\sigma _k - \tau _k\|_{L^2(\R^{2n})} \ra 0$$ quand $k \ra \infty$. En conséquence, les limites dans $B(L^2(\R^n))$ de $\{\sigma _k\}_{k=1}^\infty$ et $\{Q_{\tau_ k}\}_{k=1}^\infty$ sont égales.  \vspace{5pt}
 
@@ -1004,7 +1004,7 @@ Il est bon de chercher à étendre cet opérateur.
     $$\|Q_\sigma\|_* = \underset{k \ra \infty}{lim} \|Q_{\sigma_k}\|_* \leq  (2 \pi)^{-n/2}  \underset{k \ra \infty}{lim} \| \sigma_k \|_{L^2(\R^n)} = (2 \pi)^{-n/2} \|\sigma\|_{L^2(\R^{2n}}$$ et l'inégalité du théorème est prouvée.
 
     On a donc étendu le symbole, cherchons maintenant à \textbf{étendre les fonctions}.
-    
+
     Maintenant, si $f$ et $g$ sont dans $\mathcal{S}(\R^n)$, alors,
 
     $$\langle ( Q_ \sigma)f, g \rangle = \underset{k \ra \infty}{lim} \langle  Q_{\sigma_k}f, g \rangle = \underset{k \ra \infty}{lim} (2 \pi)^{-n/2} \int_{\R^n} \int_{\R^n} \sigma_k (x, \xi) W(f,g) (x, \xi) dx d\xi$$
@@ -1014,7 +1014,7 @@ Il est bon de chercher à étendre cet opérateur.
 
     On a par densité des fonctions Schwarz et parc continuité du produit scalaire,
     $$\langle (Q_\sigma)f,g \rangle = \underset{k \ra \infty}{lim} \langle (Q _\sigma)f_k, g_k \rangle = \underset{k \ra \infty}{lim} (2 \pi)^{-n/2} \int_{\R^n} \int_{\R^n} \sigma(x, \xi) W(f_k, g_k)(x, \xi) dx d\xi.$$
-    
+
     On peut passer à la limite, par continuité de $W$.
     $$=(2 \pi)^{-n/2} \int_{\R^n} \int_{\R^n} \sigma(x, \xi) W(f, g)(x, \xi) dx d\xi.$$
 
@@ -1031,39 +1031,39 @@ On va maintenant illustrer par quelques exemples la transformée de Weyl de cert
 Soit $x,~y \in \R^n$. Soit $\varphi \in \mathcal{S}(\R^n)$.
 
 \begin{exemple}[Avec $\sigma (x, \xi) := x$.]
-On a 
-$$(W_\sigma \varphi)(x)=(2 \pi)^{-n} \int_{\R^n} \int_{\R^n} e^{i(x-y) \. \xi}~ \sigma\left(\frac{x+y}{2}, ~\xi\right) ~ \varphi(y) ~dy d\xi$$
-$$= (2 \pi)^{-n} \int_{\R^n} \int_{\R^n} e^{i(x-y) \. \xi} ~ \frac{x+y}{2} ~ \varphi(y) ~dy d\xi$$
-$$= (2 \pi)^{-n} \int_{\R^n} \int_{\R^n} e^{i(x-y) \. \xi} ~ \frac{x}{2} ~ \varphi(y) ~dy d\xi + (2 \pi)^{-n} \int_{\R^n} \int_{\R^n} e^{i(x-y) \. \xi} ~ \frac{y}{2} ~ \varphi(y) ~dy d\xi$$
-$$= (2 \pi)^{-n} ~ \frac{x}{2} ~ \int_{\R^n} e^{ix \. \xi} \left( \int_{\R^n} e^{-iy \. \xi} \. \varphi(y) ~dy\right) d\xi + (2 \pi)^{-n} ~ \frac{1}{2} ~\int_{\R^n} e^{ix \. \xi} \left(\int_{\R^n} e^{-iy \. \xi} \. y \. \varphi(y) ~dy \right) d\xi$$
+    On a
+    $$(W_\sigma \varphi)(x)=(2 \pi)^{-n} \int_{\R^n} \int_{\R^n} e^{i(x-y) \. \xi}~ \sigma\left(\frac{x+y}{2}, ~\xi\right) ~ \varphi(y) ~dy d\xi$$
+    $$= (2 \pi)^{-n} \int_{\R^n} \int_{\R^n} e^{i(x-y) \. \xi} ~ \frac{x+y}{2} ~ \varphi(y) ~dy d\xi$$
+    $$= (2 \pi)^{-n} \int_{\R^n} \int_{\R^n} e^{i(x-y) \. \xi} ~ \frac{x}{2} ~ \varphi(y) ~dy d\xi + (2 \pi)^{-n} \int_{\R^n} \int_{\R^n} e^{i(x-y) \. \xi} ~ \frac{y}{2} ~ \varphi(y) ~dy d\xi$$
+    $$= (2 \pi)^{-n} ~ \frac{x}{2} ~ \int_{\R^n} e^{ix \. \xi} \left( \int_{\R^n} e^{-iy \. \xi} \. \varphi(y) ~dy\right) d\xi + (2 \pi)^{-n} ~ \frac{1}{2} ~\int_{\R^n} e^{ix \. \xi} \left(\int_{\R^n} e^{-iy \. \xi} \. y \. \varphi(y) ~dy \right) d\xi$$
 
-$$= (2 \pi)^{-n} ~ \frac{x}{2} ~ \int_{\R^n} e^{ix \. \xi} ~ \hat{\varphi}(\xi) ~ d\xi - (2 \pi)^{-n} ~ \frac{1}{2} ~\int_{\R^n} e^{ix \. \xi} \left(\int_{\R^n} D_\xi( e^{-iy \. \xi}) \. \varphi(y) ~dy \right) d\xi$$
-$$= \frac{x}{2} \varphi(x) - (2 \pi)^{-n} ~ \frac{1}{2} ~\int_{\R^n} e^{ix \. \xi}~ (D_\xi\hat{\varphi})(\xi) ~ d\xi$$
-$$= \frac{x}{2} \varphi(x) - (2 \pi)^{-n} ~ \frac{1}{2} ~\int_{\R^n} e^{ix \. \xi}~ (-x \varphi)\hat{~}(\xi) ~ d\xi$$
-$$= \frac{x}{2} \varphi(x) + \frac{x}{2}\varphi(x) = x \varphi(x) = (\mathcal{Q} \varphi)(x)$$
+    $$= (2 \pi)^{-n} ~ \frac{x}{2} ~ \int_{\R^n} e^{ix \. \xi} ~ \hat{\varphi}(\xi) ~ d\xi - (2 \pi)^{-n} ~ \frac{1}{2} ~\int_{\R^n} e^{ix \. \xi} \left(\int_{\R^n} D_\xi( e^{-iy \. \xi}) \. \varphi(y) ~dy \right) d\xi$$
+    $$= \frac{x}{2} \varphi(x) - (2 \pi)^{-n} ~ \frac{1}{2} ~\int_{\R^n} e^{ix \. \xi}~ (D_\xi\hat{\varphi})(\xi) ~ d\xi$$
+    $$= \frac{x}{2} \varphi(x) - (2 \pi)^{-n} ~ \frac{1}{2} ~\int_{\R^n} e^{ix \. \xi}~ (-x \varphi)\hat{~}(\xi) ~ d\xi$$
+    $$= \frac{x}{2} \varphi(x) + \frac{x}{2}\varphi(x) = x \varphi(x) = (\mathcal{Q} \varphi)(x)$$
 \end{exemple}
 
 \begin{exemple}[Avec $\sigma (x, \xi) := \xi$.]
-On a 
-$$(W_\sigma \varphi)(x)=(2 \pi)^{-n} \int_{\R^n} \int_{\R^n} e^{i(x-y) \. \xi}~ \sigma(\frac{x+y}{2}, ~\xi) ~ \varphi(y) ~dy d\xi$$
-$$= (2 \pi)^{-n} \int_{\R^n} \int_{\R^n} e^{i(x-y) \. \xi} ~ \xi ~ \varphi(y) ~dy d\xi$$
-$$= (2 \pi)^{-n} \int_{\R^n} e^{ix\.\xi} ~ \xi \int_{\R^n} e^{-iy \. \xi} ~ \varphi(y) ~dy d\xi$$
-$$= (2 \pi)^{-n} \int_{\R^n} e^{ix\.\xi} ~ \xi ~ \hat{\varphi}(\xi) ~d\xi$$
-$$= (2 \pi)^{-n} \int_{\R^n} D_x(e^{ix\.\xi}) ~ \hat{\varphi}(\xi) ~d\xi$$
-$$= D_x(\varphi(x)) = -i \frac{\partial}{\partial x} \varphi(x) = (\mathcal{P}\varphi)(x)$$
+    On a
+    $$(W_\sigma \varphi)(x)=(2 \pi)^{-n} \int_{\R^n} \int_{\R^n} e^{i(x-y) \. \xi}~ \sigma(\frac{x+y}{2}, ~\xi) ~ \varphi(y) ~dy d\xi$$
+    $$= (2 \pi)^{-n} \int_{\R^n} \int_{\R^n} e^{i(x-y) \. \xi} ~ \xi ~ \varphi(y) ~dy d\xi$$
+    $$= (2 \pi)^{-n} \int_{\R^n} e^{ix\.\xi} ~ \xi \int_{\R^n} e^{-iy \. \xi} ~ \varphi(y) ~dy d\xi$$
+    $$= (2 \pi)^{-n} \int_{\R^n} e^{ix\.\xi} ~ \xi ~ \hat{\varphi}(\xi) ~d\xi$$
+    $$= (2 \pi)^{-n} \int_{\R^n} D_x(e^{ix\.\xi}) ~ \hat{\varphi}(\xi) ~d\xi$$
+    $$= D_x(\varphi(x)) = -i \frac{\partial}{\partial x} \varphi(x) = (\mathcal{P}\varphi)(x)$$
 \end{exemple}
 
 \begin{exemple}[Avec $\sigma (x, \xi) := x \xi$ .]
-On a 
-$$(W_\sigma \varphi)(x)=(2 \pi)^{-n} \int_{\R^n} \int_{\R^n} e^{i(x-y) \. \xi}~ \sigma(\frac{x+y}{2}, ~\xi) ~ \varphi(y) ~dy d\xi$$
-$$= (2 \pi)^{-n} \int_{\R^n} \int_{\R^n} e^{i(x-y) \. \xi} ~ \frac{x+y}{2} ~\xi ~ \varphi(y) ~dy d\xi$$
-$$= \frac{1}{2}(2 \pi)^{-n} \int_{\R^n} \int_{\R^n} e^{i(x-y) \. \xi} ~ x \xi ~ \varphi(y) ~dy d\xi+\frac{1}{2}(2 \pi)^{-n} \int_{\R^n} \int_{\R^n} e^{i(x-y) \. \xi} ~ y \xi ~ \varphi(y) ~dy d\xi$$
-$$= \frac{x}{2}(2 \pi)^{-n} \int_{\R^n} ~ \xi e^{i x \. \xi}\int_{\R^n} e^{-iy \. \xi} ~ \varphi(y) ~dy d\xi+\frac{1}{2}(2 \pi)^{-n} \int_{\R^n}  \xi e^{ix \. \xi}\int_{\R^n} e^{-iy \. \xi} ~ y ~ \varphi(y) ~dy d\xi$$
-$$= \frac{x}{2}(2 \pi)^{-n} \int_{\R^n} ~ \xi e^{i x \. \xi} ~ \hat{\varphi} (\xi) d\xi-\frac{1}{2}(2 \pi)^{-n} \int_{\R^n}  \xi e^{ix \. \xi}\int_{\R^n} D_\xi(e^{-iy \. \xi})~ \varphi(y) ~dy d\xi$$
-$$= \frac{-x}{2}(2 \pi)^{-n} \int_{\R^n} ~ D_x(e^{i x \. \xi}) ~ \hat{\varphi} (\xi) d\xi-\frac{1}{2}(2 \pi)^{-n} \int_{\R^n}  \xi e^{ix \. \xi} (-x\varphi) \hat{~}(\xi) ~ d\xi$$
-$$= \frac{-x}{2} D_x(\varphi (x))-\frac{1}{2}(2 \pi)^{-n} \int_{\R^n} e^{ix \. \xi} (D_x(-x\varphi)) \hat{~}(\xi) ~ d\xi$$
-$$= \frac{-x}{2} D_x(\varphi (x))-\frac{1}{2} D_x(-x\varphi)(x)$$
-$$= \frac{ix}{2} \partial_x(\varphi (x))+\frac{i}{2} \partial_x(-x\varphi)(x) = (\frac{\hat{\mathcal{Q}}\hat{\mathcal{P}} + \hat{\mathcal{P}}\hat{\mathcal{Q}}}{2}f)(x)$$
+    On a
+    $$(W_\sigma \varphi)(x)=(2 \pi)^{-n} \int_{\R^n} \int_{\R^n} e^{i(x-y) \. \xi}~ \sigma(\frac{x+y}{2}, ~\xi) ~ \varphi(y) ~dy d\xi$$
+    $$= (2 \pi)^{-n} \int_{\R^n} \int_{\R^n} e^{i(x-y) \. \xi} ~ \frac{x+y}{2} ~\xi ~ \varphi(y) ~dy d\xi$$
+    $$= \frac{1}{2}(2 \pi)^{-n} \int_{\R^n} \int_{\R^n} e^{i(x-y) \. \xi} ~ x \xi ~ \varphi(y) ~dy d\xi+\frac{1}{2}(2 \pi)^{-n} \int_{\R^n} \int_{\R^n} e^{i(x-y) \. \xi} ~ y \xi ~ \varphi(y) ~dy d\xi$$
+    $$= \frac{x}{2}(2 \pi)^{-n} \int_{\R^n} ~ \xi e^{i x \. \xi}\int_{\R^n} e^{-iy \. \xi} ~ \varphi(y) ~dy d\xi+\frac{1}{2}(2 \pi)^{-n} \int_{\R^n}  \xi e^{ix \. \xi}\int_{\R^n} e^{-iy \. \xi} ~ y ~ \varphi(y) ~dy d\xi$$
+    $$= \frac{x}{2}(2 \pi)^{-n} \int_{\R^n} ~ \xi e^{i x \. \xi} ~ \hat{\varphi} (\xi) d\xi-\frac{1}{2}(2 \pi)^{-n} \int_{\R^n}  \xi e^{ix \. \xi}\int_{\R^n} D_\xi(e^{-iy \. \xi})~ \varphi(y) ~dy d\xi$$
+    $$= \frac{-x}{2}(2 \pi)^{-n} \int_{\R^n} ~ D_x(e^{i x \. \xi}) ~ \hat{\varphi} (\xi) d\xi-\frac{1}{2}(2 \pi)^{-n} \int_{\R^n}  \xi e^{ix \. \xi} (-x\varphi) \hat{~}(\xi) ~ d\xi$$
+    $$= \frac{-x}{2} D_x(\varphi (x))-\frac{1}{2}(2 \pi)^{-n} \int_{\R^n} e^{ix \. \xi} (D_x(-x\varphi)) \hat{~}(\xi) ~ d\xi$$
+    $$= \frac{-x}{2} D_x(\varphi (x))-\frac{1}{2} D_x(-x\varphi)(x)$$
+    $$= \frac{ix}{2} \partial_x(\varphi (x))+\frac{i}{2} \partial_x(-x\varphi)(x) = (\frac{\hat{\mathcal{Q}}\hat{\mathcal{P}} + \hat{\mathcal{P}}\hat{\mathcal{Q}}}{2}f)(x)$$
 \end{exemple}
 
 On remarque que la transformée de Weyl a symétrisée le calcul afin de le rendre commutatif !
@@ -1085,7 +1085,7 @@ On va introduire dans ce chapitre la notion d'opérateurs de Hilbert-Schmidt sur
 Il est bon de vouloir munir les opérateurs de Hilbert-Schmidt sur $L^2(\R^n)$ d'opérations qui \textbf{rendent le calcul agréable}.
 
 \begin{definition}
-Soit $f$, $g$ dans $L^2(\R^{2n})$.
+    Soit $f$, $g$ dans $L^2(\R^{2n})$.
     \begin{itemize}
         \item On définit $g \circ h$ sur $\R^{2n}$ par $(g \circ h)(x,y) = \int_{\R^n} g(x,z)h(z,y)dz, x, y \in \R^n$.
         \item On définit $h^*$ sur $\R^{2n}$ par $h^*(x,y) = \overline{h(y,x)}, x, y \in \R^n$.
@@ -1113,27 +1113,27 @@ On est donc amené au \textbf{théorème principal} de cette partie.
 
 \begin{preuve}
 
-Soit $g$ et $h$ dans $L^2(\R^n)$.\vspace{5pt}
+    Soit $g$ et $h$ dans $L^2(\R^n)$.\vspace{5pt}
 
-\textbf{Preuve de $S_g S_h = S_{g \circ h}$.} \vspace{5pt}
+    \textbf{Preuve de $S_g S_h = S_{g \circ h}$.} \vspace{5pt}
 
-$$S_gS_hf(x) = S_g(S_hf)(x) = \int_{\R^n} g(x,y) S_hf(y)dy$$
-$$ = \int_{\R^n} g(x,y) \left(\int_{\R^n} h(y,z) f(z) dz\right) dy = \int_{\R^n} \int_{\R^n} g(x,y) h(y,z) f(z) dz dy$$\vspace{5pt}
+    $$S_gS_hf(x) = S_g(S_hf)(x) = \int_{\R^n} g(x,y) S_hf(y)dy$$
+    $$ = \int_{\R^n} g(x,y) \left(\int_{\R^n} h(y,z) f(z) dz\right) dy = \int_{\R^n} \int_{\R^n} g(x,y) h(y,z) f(z) dz dy$$\vspace{5pt}
 
-En justifiant que l'\textbf{on peut échanger les deux intégrales} par le théorème de Fubini, en justifiant que le facteur intégré est intégrable, par l'inégalité de Cauchy-Schwartz, on écrit,
+    En justifiant que l'\textbf{on peut échanger les deux intégrales} par le théorème de Fubini, en justifiant que le facteur intégré est intégrable, par l'inégalité de Cauchy-Schwartz, on écrit,
 
-$$= \int_{\R^n} \int_{\R^n} g(x,y) h(y,z) f(z) dy dz = \int_{\R^n} \left( \int_{\R^n} g(x,y) h(y,z) dy\right) f(z) dz = \int_{\R^n} g \circ h(x,z) f(z) dz = S_{g \circ h}f(x)$$\vspace{5pt}
+    $$= \int_{\R^n} \int_{\R^n} g(x,y) h(y,z) f(z) dy dz = \int_{\R^n} \left( \int_{\R^n} g(x,y) h(y,z) dy\right) f(z) dz = \int_{\R^n} g \circ h(x,z) f(z) dz = S_{g \circ h}f(x)$$\vspace{5pt}
 
-\textbf{Preuve de $S_h* = S_{h*}$.}\vspace{5pt}
+    \textbf{Preuve de $S_h* = S_{h*}$.}\vspace{5pt}
 
-$$\langle S_h f, g \rangle = \int_{\R^n} S_hf(x) \overline{g(x)} dx = \int_{\R^n} \int_{\R^n} h(x,y) f(y) dy \overline{g(x)} dx = \int_{\R^n} \int_{\R^n} h(x,y) f(y) \overline{g(x)} dy dx$$\vspace{5pt}
+    $$\langle S_h f, g \rangle = \int_{\R^n} S_hf(x) \overline{g(x)} dx = \int_{\R^n} \int_{\R^n} h(x,y) f(y) dy \overline{g(x)} dx = \int_{\R^n} \int_{\R^n} h(x,y) f(y) \overline{g(x)} dy dx$$\vspace{5pt}
 
-Par le même argument que dans la première partie de la preuve, on échange les deux intégrales.\vspace{5pt}
+    Par le même argument que dans la première partie de la preuve, on échange les deux intégrales.\vspace{5pt}
 
-$$= \int_{\R^n} f(y) \left(\overline{\int_{\R^n}\overline{h(y,x)}g(x)}\right) dy = \int_{\R^n} f(y) \overline{S_{h*}g(y)} dy = \langle f, S_{h*}g \rangle$$\vspace{5pt}
+    $$= \int_{\R^n} f(y) \left(\overline{\int_{\R^n}\overline{h(y,x)}g(x)}\right) dy = \int_{\R^n} f(y) \overline{S_{h*}g(y)} dy = \langle f, S_{h*}g \rangle$$\vspace{5pt}
 
-En conclusion $S_h$ et $S_h^*$ sont \textbf{adjoints} donc $S_h^* = S_{h^*}$.
-    
+    En conclusion $S_h$ et $S_h^*$ sont \textbf{adjoints} donc $S_h^* = S_{h^*}$.
+
 \end{preuve}
 
 \subsection{Produit tensoriel sur $L^2(\R^n)$}
@@ -1143,7 +1143,7 @@ Au chapitre précédent, a été développé \textbf{un calcul fonctionnel sur l
 
 \begin{definition}[Produit tensoriel de deux fonctions dans $L^2(\R^n)$]
     Soit $f, ~g \in L^2(\R^n)$, on définit la fonction $f \otimes g$ sur $\R^{2n}$ par $(f \otimes g)(x,y) = f(x)g(y),~~ x$, $y \in \R^n$. \vspace{5pt}
-    
+
     On l'appelle le \textbf{produit tensoriel} de f et g.
 \end{definition}
 
@@ -1169,7 +1169,7 @@ On définit maintenant un opérateur qui sera utile pour changer de point de vue
 
 \begin{definition}[Opérateur de torsion]
     On définit un opérateur linéaire $T : L^2(\R^n) \ra L^2(\R^n)$ par $(T f)(x,y) = f(x+\frac{y}{2}, x - \frac{y}{2})$, $x$, $y \in \R^n$ pour tout $f$ dans $L^2(\R^{2n})$.
-    
+
     On appelle $T$ \textbf{l'opérateur de torsion} sur $L^2(\R^{2n})$.
 \end{definition}
 
@@ -1194,7 +1194,7 @@ $(Kf)(x,y) = (T^{-1} \mathcal{F}_2f)(y,x)$, $x$, $y \in \R^n$ pour tout $f$ dans
 
 \begin{remark}
     L'intérêt d'avoir introduit les deux opérateurs $T$ et $K$ sont de changer de point de vue sur les formules de la transformée de Weyl et de Wigner, afin de faciliter le calcul par la suite. \vspace{5pt}
-    
+
     Le quatrième point illustre bien ce \textbf{changement de point de vue} : faire la transformée de Wigner de $f$ et $g$ revient à prendre le produit tensoriel de $f$ avec le conjugué de $g$ puis de tordre ce produit avant d'en prendre la transformée de Fourier inverse dans la seconde variable.
 \end{remark}
 
@@ -1212,7 +1212,7 @@ Les théorèmes principaux de ce chapitre sont maintenant introduits.
     $$\langle W_\sigma f,~ g \rangle = (2 \pi) ^{-n/2} \int_{\R^n} \int_{\R^n}  \sigma(x, \xi) W(f,g)(x, \xi) dx d\xi$$
 
     On l'écrit sous forme de produit scalaire,
-    
+
     $$=(2\pi)^{-n/2} \langle W(f,g),~ \bar{\sigma} \rangle$$
 
     D'après la proposition, on décompose $W(f,g)$,
@@ -1220,7 +1220,7 @@ Les théorèmes principaux de ce chapitre sont maintenant introduits.
     $$=(2 \pi)^{-n/2} \langle K^{-1}(f \otimes \bar{g}),~ \bar{\sigma} \rangle$$
 
     Ensuite, comme K est une \textbf{isométrie} et par la proposition, on a,
-    $$= (2 \pi)^{-n/2} \langle f \otimes \bar{g},~(K_\sigma)^* \rangle = (2 \pi)^{-n/2} \int_{\R^n} \int_{\R^n} f(x) \bar{g} (y) K_\sigma (y,x) dxdy$$ 
+    $$= (2 \pi)^{-n/2} \langle f \otimes \bar{g},~(K_\sigma)^* \rangle = (2 \pi)^{-n/2} \int_{\R^n} \int_{\R^n} f(x) \bar{g} (y) K_\sigma (y,x) dxdy$$
     $$= (2 \pi)^{-n/2} \int_{\R^n} \left( \int_{\R^n} K_\sigma(y,x)f(x)dx \right) \bar{g}(y) dy.$$
 
     On reconnaît l'opérateur $S_k$ où $k(x,y) = (2 \pi)^{-n/2} K_\sigma(x,y)$, $x$, $y \in \R^n$ définit sur $\R^{2n}$.
@@ -1233,7 +1233,7 @@ Les théorèmes principaux de ce chapitre sont maintenant introduits.
 
 \begin{preuve}
     Soit $S_h$ un opérateur de Hilbert-Schmidt, $h \in L^2(\R^{2n})$.\vspace{5pt}
-    
+
     En posant $\sigma = (2 \pi)^{n/2} K^{-1}h$, d'après le théorème précédent, $W_\sigma$ est un opérateur de Hilbert-Schmidt de noyau $(2\pi)^{-n/2} K (2 \pi)^{n/2} K^{-1} h = h$
 \end{preuve}
 En conclusion l'espace des opérateurs de Hilbert-Schmidt sur $L^2(\R^n)$ \textbf{est égal} à l'espace des transformées de Weyl avec symbole dans $L^2(\R^n)$.
@@ -1244,52 +1244,52 @@ Ce chapitre final va développer \textbf{un calcul fonctionnel pour les transfor
 Maintenant que l'on a identifié les transformées de Weyl avec symbole dans $L^2(\R^n)$ aux opérateurs de Hilbert-Schmidt dans $L^2(\R^n)$. On va essayer de développer la notion de $\mathcal{H}^*$-algèbre. Au coeur de cette partie.
 
 \begin{definition}
-Soit $\mathcal{H}$ un espace de Hilbert \textbf{séparable complexe}, avec $\langle \.,~ \. \rangle$ son produit scalaire et $\| \. \|$ sa norme. \vspace{5pt}
+    Soit $\mathcal{H}$ un espace de Hilbert \textbf{séparable complexe}, avec $\langle \.,~ \. \rangle$ son produit scalaire et $\| \. \|$ sa norme. \vspace{5pt}
 
-On munit $\mathcal{H}$ de deux opérations :
-$a,~ b \mapsto ab$ et $a \mapsto a^*$.\vspace{5pt}
+    On munit $\mathcal{H}$ de deux opérations :
+    $a,~ b \mapsto ab$ et $a \mapsto a^*$.\vspace{5pt}
 
-On dit que $\mathcal{H}$ est une \textbf{$\mathcal{H^*}$}-algèbre si les deux opérations satisfont :
+    On dit que $\mathcal{H}$ est une \textbf{$\mathcal{H^*}$}-algèbre si les deux opérations satisfont :
 
 
-\begin{itemize}\setlength{\itemsep}{1pt}
-    \item $ a(b+c) = ab+ac$, $(a+b)c = ac+bc$.
-    \item $ \lambda (ab) = (\lambda a) b = a (\lambda b)$.
-    \item $ a(bc) = (ab)c$.
-    \item $a^{**}=a$.
-    \item $(a+b)^* = a^*+b^*$.
-    \item $(ab)^* = b^* a^*$.
-    \item $ (\lambda a)^* = \bar{\lambda} a^*$.
-    \item $\| a^* \| = \| a \|$.
-    \item $\|ab\| \leq \|a\| \|b\|$.
-    \item $\langle ab, c \rangle = \langle b, a^*c \rangle$.
-\end{itemize}
-    
+    \begin{itemize}\setlength{\itemsep}{1pt}
+        \item $ a(b+c) = ab+ac$, $(a+b)c = ac+bc$.
+        \item $ \lambda (ab) = (\lambda a) b = a (\lambda b)$.
+        \item $ a(bc) = (ab)c$.
+        \item $a^{**}=a$.
+        \item $(a+b)^* = a^*+b^*$.
+        \item $(ab)^* = b^* a^*$.
+        \item $ (\lambda a)^* = \bar{\lambda} a^*$.
+        \item $\| a^* \| = \| a \|$.
+        \item $\|ab\| \leq \|a\| \|b\|$.
+        \item $\langle ab, c \rangle = \langle b, a^*c \rangle$.
+    \end{itemize}
+
 \end{definition}
 
 On cherche à partir de maintenant de munir les ensembles que l'on connaît de nouvelles structures, différentes et plus riche, afin de faire un lien profond entre ces objets.
 
 \begin{proposition}
     L'espace de Hilbert $L^2(\R^{2n})$ équipé des deux opérations $f,~ g \mapsto f \circ g$ et $f \mapsto f^*$ avec l'opération $\circ$ définit dans le chapitre sur les opérateurs de Hilbert-Schmidt est une $\mathcal{H}^*$-algèbre. \vspace{5pt}
-    
+
     On note la $\mathcal{H}^*$-algèbre obtenue par $(L^2(\R^{2n}), \circ, *)$.
 \end{proposition}
 
 
 \begin{definition}% l'introduire avant
 
-On note $HS(L^2(\R^n))$ \textbf{l'ensemble des opérateurs de Hilbert-Schmidt} sur $L^2(\R^n)$.\vspace{5pt}
+    On note $HS(L^2(\R^n))$ \textbf{l'ensemble des opérateurs de Hilbert-Schmidt} sur $L^2(\R^n)$.\vspace{5pt}
 
-On le munit d'un produit scalaire définit pour tout $A$, $B \in HS(L^2(\R^n))$ par $(A,B)_{HS} = \overset{\infty}{\underset{k=1}{\sum}} \langle A_{\varphi_k, B_{\varphi_k}} \rangle$,\vspace{5pt}
+    On le munit d'un produit scalaire définit pour tout $A$, $B \in HS(L^2(\R^n))$ par $(A,B)_{HS} = \overset{\infty}{\underset{k=1}{\sum}} \langle A_{\varphi_k, B_{\varphi_k}} \rangle$,\vspace{5pt}
 
-où les $\varphi_k$ forment une base orthonormale de $L^2(\R^n)$.
+    où les $\varphi_k$ forment une base orthonormale de $L^2(\R^n)$.
 \end{definition}
 
 \begin{proposition}
-L'espace $HS(L^2(\R^n))$ équipé avec le produit scalaire $(~,~)_{HS}$ et les opérations de produit usuel et d'adjoint est une $\mathcal{H}^*$-algèbre.\vspace{5pt}
+    L'espace $HS(L^2(\R^n))$ équipé avec le produit scalaire $(~,~)_{HS}$ et les opérations de produit usuel et d'adjoint est une $\mathcal{H}^*$-algèbre.\vspace{5pt}
 
-On la note encore $HS(L^2(\R^n))$.
-    
+    On la note encore $HS(L^2(\R^n))$.
+
 \end{proposition}
 
 \begin{proposition}
@@ -1300,32 +1300,32 @@ On la note encore $HS(L^2(\R^n))$.
 \end{remark}
 
 \begin{definition}
-Soit $f$, $g \in L^2(\R^n)$, on définit la fonction $f \times g$ sur $\R^{2n}$ par
-$$f \times g = K^{-1} (Kf \circ Kg)$$
+    Soit $f$, $g \in L^2(\R^n)$, on définit la fonction $f \times g$ sur $\R^{2n}$ par
+    $$f \times g = K^{-1} (Kf \circ Kg)$$
 \end{definition}
 
 \begin{proposition}
     L'espace de Hilbert $L^2(\R^{2n})$ équipé des deux opérations $f,~ g \mapsto f \times g$ et $f \mapsto \bar{f}$ est une $\mathcal{H}^*$-algèbre.\vspace{5pt}
-    
+
     De plus $K$ réalise un \textbf{isomorphisme} entre $(L^2(\R^{2n}), \times, -)$ et $(L^2(\R^{2n}), \circ, *)$.
 \end{proposition}
 
 \begin{theorem}
-L'application 
-$$L^2(\R^{2n}) \ni \sigma \mapsto (2 \pi)^{n/2} W_\sigma \in HS(L^2(\R^n))$$ est un $*-$isomorphisme isométrique de $(L^2(\R^{2n}), \times, -)$ dans $HS(L^2(\R^{2n}))$. \vspace{5pt}
+    L'application
+    $$L^2(\R^{2n}) \ni \sigma \mapsto (2 \pi)^{n/2} W_\sigma \in HS(L^2(\R^n))$$ est un $*-$isomorphisme isométrique de $(L^2(\R^{2n}), \times, -)$ dans $HS(L^2(\R^{2n}))$. \vspace{5pt}
 
-En conséquence, on a,
-\begin{itemize}
-    \item $W_\sigma^* = W_{\bar{\sigma}}$
-    \item $W_\sigma W_\tau = W_{(2 \pi)^{-n/2} \sigma \times \tau}$
-    \item $W_\sigma + W_\tau = W_{\sigma+\tau}$
-    \item $\lambda W_\sigma = W_{\lambda \sigma}$
-    \item $\|W_\sigma\|_* \leq (2 \pi)^{-n/2} \|\sigma\|_{L^2(\R^n)} = \|W_\sigma\|_{HS}$
-\end{itemize}
+    En conséquence, on a,
+    \begin{itemize}
+        \item $W_\sigma^* = W_{\bar{\sigma}}$
+        \item $W_\sigma W_\tau = W_{(2 \pi)^{-n/2} \sigma \times \tau}$
+        \item $W_\sigma + W_\tau = W_{\sigma+\tau}$
+        \item $\lambda W_\sigma = W_{\lambda \sigma}$
+        \item $\|W_\sigma\|_* \leq (2 \pi)^{-n/2} \|\sigma\|_{L^2(\R^n)} = \|W_\sigma\|_{HS}$
+    \end{itemize}
 \end{theorem}
 
 \begin{preuve}
-On a le diagramme suivant, qui montre facilement le théorème.
+    On a le diagramme suivant, qui montre facilement le théorème.
 
     \begin{center}
         \begin{tikzpicture}[x=3cm,y=2cm, >=latex, ->]
